@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="300.0" prefWidth="550.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="conquerantartica.view.SelectLevelWindowController">
+   <children>
+      <JFXListView fx:id="missionView" layoutX="25.0" layoutY="51.0" prefHeight="187.0" prefWidth="500.0" />
+      <Label layoutX="147.0" layoutY="14.0" text="SELEZIONA LA MISSIONE DA RIGIOCARE" textAlignment="CENTER">
+         <font>
+            <Font name="Comic Sans MS" size="12.0" />
+         </font>
+      </Label>
+      <JFXButton fx:id="confirmButton" layoutX="25.0" layoutY="259.0" onAction="#onConfirmButtonClicked" style="-fx-background-color: #151928;" text="RIGIOCA MISSIONE" textFill="#fffafa">
+         <font>
+            <Font name="Comic Sans MS" size="12.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="backButton" layoutX="397.0" layoutY="259.0" onAction="#onBackButtonClicked" style="-fx-background-color: #151928;" text="TORNA INDIETRO" textFill="#fffafa">
+         <font>
+            <Font name="Comic Sans MS" size="12.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>

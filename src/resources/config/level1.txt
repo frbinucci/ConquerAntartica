@@ -1,0 +1,27 @@
+#Features of the Battlefield
+#This fields contain all the information used in order to set up the battlefield
+battlefieldWidth = 800
+battlefieldHeight = 480
+numberPenguins = 3
+#Information used in order to generate the scenery.
+playerBaseStartX = 0
+playerBaseStartY = 430
+enemyBaseStartX = 550
+enemyBaseStartY = 430
+alliedPenguinsStartXPosition = 0
+penguinsStartYPosition = 380
+enemyPenguinsStartXPosition = 750
+distanceBetweenPenguins = 50
+alliedBulletXPosition = 200
+alliedBulletYPosition = 400
+enemyBulletXPosition = 580
+enemyBulletYPosition = 390
+alliedCannonXPosition = 170
+alliedBaseCannonXPosition = 200
+cannonYPosition = 380
+baseCannonYPosition = 380
+enemyCannonXPosition = 530
+enemyBaseCannonXPosition = 580
+#General Information
+bulletRadius = 5
+

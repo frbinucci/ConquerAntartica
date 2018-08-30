@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="550.0" prefWidth="550.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="conquerantartica.view.MainWindowController">
+   <children>
+      <Label layoutX="154.0" layoutY="14.0" text="CONQUER ANTARTICA - JAVA EDITION">
+         <font>
+            <Font name="Comic Sans MS" size="12.0" />
+         </font></Label>
+      <JFXButton fx:id="startNewGameButton" layoutX="26.0" layoutY="64.0" onAction="#onStartNewGameButtonClicked" prefHeight="70.0" prefWidth="500.0" style="-fx-background-color: #151928;" text="INIZIA UNA NUOVA PARTITA" textFill="WHITE">
+         <font>
+            <Font name="Comic Sans MS" size="22.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="loadGame" layoutX="25.0" layoutY="145.0" onAction="#onLoadGameButtonClicked" prefHeight="70.0" prefWidth="500.0" style="-fx-background-color: #151928;" text="CARICA UN PROFILO ESISTENTE" textFill="WHITE">
+         <font>
+            <Font name="Comic Sans MS" size="22.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="exitButton" layoutX="25.0" layoutY="383.0" onAction="#onExitButtonClicked" prefHeight="70.0" prefWidth="500.0" style="-fx-background-color: #151928;" text="ESCI" textFill="WHITE">
+         <font>
+            <Font name="Comic Sans MS" size="22.0" />
+         </font>
+      </JFXButton>
+      <Label layoutX="314.0" layoutY="519.0" text="2018 - A Francesco Binucci's production">
+         <font>
+            <Font name="Comic Sans MS" size="12.0" />
+         </font></Label>
+      <JFXButton fx:id="hallOfFame" layoutX="25.0" layoutY="225.0" onAction="#onHallOfFameButtonClicked" prefHeight="70.0" prefWidth="500.0" style="-fx-background-color: #151928;" text="HALL OF FAME" textFill="WHITE">
+         <font>
+            <Font name="Comic Sans MS" size="22.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="instructionButton" layoutX="25.0" layoutY="305.0" onAction="#onInstructionButtonCliked" prefHeight="70.0" prefWidth="500.0" style="-fx-background-color: #151928;" text="ISTRUZIONI DI GIOCO" textFill="WHITE">
+         <font>
+            <Font name="Comic Sans MS" size="22.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>

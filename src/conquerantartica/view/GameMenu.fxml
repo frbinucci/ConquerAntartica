@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="350.0" prefWidth="550.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="conquerantartica.view.GameMenuController">
+   <children>
+      <Label layoutX="200.0" layoutY="14.0" text="MENU PRINCIPALE">
+         <font>
+            <Font name="Comic Sans MS" size="16.0" />
+         </font></Label>
+      <Label layoutX="25.0" layoutY="269.0" text="Attualmente stai giocando come: ">
+         <font>
+            <Font name="Comic Sans MS" size="12.0" />
+         </font></Label>
+      <Label layoutX="25.0" layoutY="286.0" text="Vite a disposizione:">
+         <font>
+            <Font name="Comic Sans MS" size="12.0" />
+         </font></Label>
+      <Label fx:id="playerName" layoutX="232.0" layoutY="269.0" text="Label">
+         <font>
+            <Font name="Comic Sans MS" size="12.0" />
+         </font></Label>
+      <Label fx:id="numberLives" layoutX="232.0" layoutY="286.0" text="Label">
+         <font>
+            <Font name="Comic Sans MS" size="12.0" />
+         </font></Label>
+      <JFXButton fx:id="playCampaignButton" layoutX="19.0" layoutY="37.0" onAction="#onPlayCampaignButtonClicked" prefHeight="26.0" prefWidth="514.0" style="-fx-background-color: #151928;" text="RIPRENDI CAMPAGNA" textFill="WHITE">
+         <font>
+            <Font name="Comic Sans MS" size="12.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="multiPlayerButton" layoutX="18.0" layoutY="105.0" onAction="#onMultiplayerButtonClicked" prefHeight="25.0" prefWidth="514.0" style="-fx-background-color: #151928;" text="MULTIGIOCATORE" textFill="WHITE">
+         <font>
+            <Font name="Comic Sans MS" size="12.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="changeProfileButton" layoutX="19.0" layoutY="140.0" onAction="#onChangeProfileButtonClicked" prefHeight="25.0" prefWidth="514.0" style="-fx-background-color: #151928;" text="CAMBIA PROFILO" textFill="WHITE">
+         <font>
+            <Font name="Comic Sans MS" size="12.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="exitButton" layoutX="18.0" layoutY="174.0" onAction="#onExitButtonClicked" prefHeight="25.0" prefWidth="514.0" style="-fx-background-color: #151928;" text="ESCI" textFill="WHITE">
+         <font>
+            <Font name="Comic Sans MS" size="12.0" />
+         </font>
+      </JFXButton>
+      <Label layoutX="25.0" layoutY="303.0" text="Punteggio Massimo">
+         <font>
+            <Font name="Comic Sans MS" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="highScore" layoutX="232.0" layoutY="303.0" text="Label" />
+      <JFXButton fx:id="replayMissionButton" layoutX="18.0" layoutY="70.0" onAction="#onReplayMissionButtonClicked" prefHeight="26.0" prefWidth="514.0" style="-fx-background-color: #151928;" text="RIGIOCA MISSIONI COMPLETATE" textFill="WHITE">
+         <font>
+            <Font name="Comic Sans MS" size="12.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>

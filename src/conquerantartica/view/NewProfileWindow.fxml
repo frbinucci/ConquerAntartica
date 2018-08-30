@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="215.0" prefWidth="550.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="conquerantartica.view.NewProfileWindowController">
+   <children>
+      <Label layoutX="62.0" layoutY="14.0" prefHeight="25.0" prefWidth="427.0" text="CREAZIONE DI UN NUOVO PROFILO DI GIOCO" textAlignment="CENTER">
+         <font>
+            <Font name="Comic Sans MS" size="18.0" />
+         </font></Label>
+      <Label layoutX="25.0" layoutY="66.0" text="Nome del giocatore">
+         <font>
+            <Font name="Comic Sans MS" size="12.0" />
+         </font></Label>
+      <Text layoutX="25.0" layoutY="109.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Livello di difficoltà" />
+      <JFXSlider fx:id="difficultyLevel" blockIncrement="1.0" layoutX="387.0" layoutY="101.0" max="3.0" min="1.0" prefHeight="14.0" prefWidth="149.0" />
+      <JFXTextField fx:id="playerName" layoutX="387.0" layoutY="62.0" prefHeight="25.0" prefWidth="149.0" />
+      <JFXButton fx:id="confirmData" layoutX="26.0" layoutY="134.0" onAction="#onButtonClicked" prefHeight="25.0" prefWidth="500.0" style="-fx-background-color: #151928;" text="CREA NUOVO PROFILO" textFill="WHITE">
+         <font>
+            <Font name="Comic Sans MS" size="12.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="back" layoutX="26.0" layoutY="165.0" onAction="#onBackButtonClicked" prefHeight="25.0" prefWidth="500.0" style="-fx-background-color: #151928;" text="TORNA INDIETRO" textFill="WHITE">
+         <font>
+            <Font name="Comic Sans MS" size="12.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>
